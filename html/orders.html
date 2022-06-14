@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/general.css" />
+    <link rel="stylesheet" href="../css/order.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- navbar starts -->
+    <div class="navbar">
+      <div class="navbar_left">
+        <img src="../img/flipkart1 (1).png" alt="" class="logo" />
+        <a href="index1.html" class="home"><p>Home</p></a>
+      </div>
+      <div class="navbar_right">
+        <p>Wishlist</p>
+        <a href="cart.html" class="cart">
+          <div class="cart">
+            <i class="fa fa-shopping-cart"></i>
+            <p>Cart</p>
+            <p class="items_added">0</p>
+          </div>
+        </a>
+
+        <a href="orders.html" class="order_section"><p>My Orders</p></a>
+        <a href="index.html" class="home">
+          <p class="logout">logout</p>
+        </a>
+      </div>
+    </div>
+    <!-- navbar ends -->
+
+    <div class="empty_cart hide">
+      <h1 class="empty">Nothing has been Ordered</h1>
+    </div>
+
+    <div class="cart_list">
+      <div>
+        <div class="cart_items">
+          <p class="cart_number">ORDER DETAILS</p>
+        </div>
+        <div class="cart_lists">
+          <div class="cart_containing_items">
+            <img src="../img/flipkart3.png" alt="" />
+            <div class="main_cart_items">
+              <p class="p_desc">PUMA PIONEER I I 18.5 L Backpack</p>
+              <p class="p_instock">Delivery Excepted By 18 July 2022</p>
+              <p class="p_instock">$ 45</p>
+              <div class="option_btn">
+                <button class="btns remove_btn">REMOVE</button>
+              </div>
+            </div>
+          </div>
+          <div class="cart_containing_items">
+            <img src="../img/flipkart3.png" alt="" />
+            <div class="main_cart_items">
+              <p class="p_desc">PUMA PIONEER I I 18.5 L Backpack</p>
+              <p class="p_instock">Available</p>
+              <p class="p_instock">$ 45</p>
+              <div class="option_btn">
+                <button class="btns remove_btn">REMOVE</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="../js/order.js"></script>
+</html>

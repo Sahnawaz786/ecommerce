@@ -1,0 +1,49 @@
+.product_desc {
+  display: flex;
+  width: 70%;
+  gap: 4rem;
+  /* border: 2px solid red; */
+  margin: 3rem auto;
+  box-shadow: 0 0 13px 2px #b3b3b3;
+}
+
+.img_des {
+  margin-left: 2rem;
+  margin-top: 1rem;
+  width: 200px;
+  margin-bottom: 1rem;
+}
+
+.p_details {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.p_title {
+  margin-top: 1rem;
+  font-size: 2.2rem;
+  color: blue;
+}
+.p_price {
+  font-size: 20px;
+  color: green;
+}
+.p_descs {
+  font-size: 17px;
+  letter-spacing: 2px;
+}
+.p_category {
+  font-size: 22px;
+  color: #b3b3b3;
+}
+.p_rating {
+  font-size: 18px;
+}
+.checked {
+  color: orange;
+}
+.p_count {
+  font-size: 20px;
+  color: green;
+}

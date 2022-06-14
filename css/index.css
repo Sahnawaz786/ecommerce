@@ -1,0 +1,106 @@
+.shop_items {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #d1d3d5;
+}
+
+.items {
+  display: flex;
+  gap: 6.5rem;
+  padding-left: 10rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.img_handle {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+}
+
+.img_handle:hover {
+  cursor: pointer;
+}
+
+.img_handle:hover > span {
+  color: blue;
+  cursor: pointer;
+}
+
+.img_handle img {
+  width: 64px;
+}
+
+.img_handle span {
+  font-size: 17px;
+}
+
+/* banks section_starts here */
+
+.banks img {
+  margin-top: 23px;
+  width: 100%;
+}
+
+/* products_details starts here  */
+.products_details img {
+  width: 184px;
+  height: 184px;
+  margin-top: 1rem;
+  transition: 0.2s;
+}
+
+.products_details img:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.p_items {
+  display: grid;
+  grid-template-columns: 250px 250px 250px 250px;
+  padding-left: 187px;
+  align-items: center;
+  justify-items: center;
+  gap: 1rem;
+}
+
+.products h2 {
+  font-size: 23px;
+  padding-left: 4rem;
+  display: inline-block;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  color: blue;
+}
+
+.desc {
+  font-size: 15px;
+}
+
+.products_details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+  box-shadow: 0 0 10px 3px #d9d9d9;
+}
+
+.price {
+  color: green;
+  font-size: 20px;
+  width: 119px;
+  text-align: center;
+  box-shadow: 0 0 4px 2px #99ff99;
+  margin-bottom: 1rem;
+  transition: 0.1s;
+}
+
+.price:hover {
+  background-color: #99ff99;
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: 0.2s;
+}

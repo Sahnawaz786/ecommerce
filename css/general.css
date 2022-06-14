@@ -1,0 +1,98 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* navbar section_starts here */
+.logo {
+  width: 111px;
+  margin-left: 3rem;
+}
+
+.navbar {
+  background-color: #2774f0;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 6rem;
+  /* position: sticky;
+  top: 0; */
+}
+
+.navbar p {
+  font-size: 19px;
+}
+
+.navbar_left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.navbar_right {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  padding-right: 3rem;
+}
+
+.cart {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  text-decoration: none;
+  color: white;
+}
+
+.cart:hover {
+  cursor: pointer;
+  color: goldenrod;
+}
+
+.fa-shopping-cart {
+  font-size: 20px !important;
+}
+
+.items_added {
+  color: green;
+  font-size: 19px;
+  width: 21px;
+  height: 24px;
+  text-align: center;
+  border-radius: 50%;
+  background: white;
+  /* border: 1px solid white; */
+}
+
+/* order btn in the navbar  */
+.order_section {
+  color: white;
+  text-decoration: none;
+}
+
+/* home */
+.home {
+  color: white;
+  text-decoration: none;
+}
+
+.home:hover {
+  cursor: pointer;
+  color: goldenrod;
+}
+
+.order_section:hover {
+  cursor: pointer;
+  color: goldenrod;
+}
