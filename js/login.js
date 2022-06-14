@@ -6,7 +6,7 @@ const login_btn = document.querySelector(".login_btn");
 login_btn.addEventListener("click", (e) => {
   e.preventDefault();
   if (email_holder.value == "alam" && password_holder.value == "alam5827") {
-    window.location.replace("https://sahnawaz786.github.io/ecommerce/html/index1.html");
+    window.location.replace("/ecommerce/html/index1.html");
     localStorage.clear();
     localStorage.setItem("user", email_holder.value);
     localStorage.setItem("cart_num", 0);
